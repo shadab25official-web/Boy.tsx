@@ -19,7 +19,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Render FinalVideo
         run: npx remotion render src/index.ts FinalVideo out/bp-video.mp4
