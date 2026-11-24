@@ -1,0 +1,13 @@
+{
+  "name": "boy-reel",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.ts"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "remotion": "^4.0.0",
+    "@remotion/cli": "^4.0.0"
+  }
+}
